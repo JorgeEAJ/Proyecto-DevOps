@@ -1,0 +1,11 @@
+groups:
+  - name: example-alerts
+    rules:
+      - alert: HighErrorRate
+        expr: rate(http_requests_total{status="500"}[1m]) > 1
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Tasa alta de errores 500 detectada"
+          description: "La API está devolviendo muchos errores 500"

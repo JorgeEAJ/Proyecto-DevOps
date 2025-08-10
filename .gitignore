@@ -1,0 +1,14 @@
+# Node modules
+frontend/node_modules/
+
+# Python virtual envs
+backend/venv/
+backend/__pycache__/
+
+# Docker volumes y logs
+*.log
+*.pid
+*.sock
+
+# Configs locales
+.env

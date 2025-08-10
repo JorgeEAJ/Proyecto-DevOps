@@ -1,0 +1,19 @@
+global:
+  scrape_interval: 15s
+
+# Configuración para alertas
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+            - 'alertmanager:9093'
+
+# Cargar reglas de alerta
+rule_files:
+  - "alert_rules.yml"
+
+# Scrape al backend Flask
+scrape_configs:
+  - job_name: 'flask'
+    static_configs:
+      - targets: ['backend:5000']

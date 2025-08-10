@@ -1,0 +1,13 @@
+global:
+  resolve_timeout: 5m
+
+route:
+  receiver: 'default'
+
+receivers:
+  - name: 'default'
+    # Esto solo imprime en consola del contenedor
+    # Puedes agregar Slack, correo, etc.
+    webhook_configs:
+      - url: 'http://backend:5000/api/alertas' # de prueba o simulador
+        send_resolved: true
