@@ -20,7 +20,7 @@ Proyecto de ejemplo con backend en Flask, frontend en Vue.js + Vite, base de dat
 
 1. Clona el repositorio:
 
-git clone https://github.com/tuusuario/proyecto-prototipo.git
+git clone https://github.com/JorgeEAJ/Proyecto-DevOps
 cd proyecto-prototipo
 
 2. Levanta los contenedores:
