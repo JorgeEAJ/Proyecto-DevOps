@@ -64,5 +64,5 @@ Haz commit de tus cambios con mensajes claros.
 Abre un pull request.
 
 Contacto
-Jorge Arizmendi - [tu_email@example.com]
+Jorge Arizmendi
 
