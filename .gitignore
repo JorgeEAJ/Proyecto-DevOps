@@ -4,6 +4,7 @@ frontend/node_modules/
 # Python virtual envs
 backend/venv/
 backend/__pycache__/
+backend/app/__pycache__/
 
 # Docker volumes y logs
 *.log

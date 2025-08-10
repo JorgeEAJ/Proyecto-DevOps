@@ -6,6 +6,6 @@ CREATE TABLE IF NOT EXISTS items (
 );
 
 INSERT INTO items (name, description) VALUES
-('Item 1', 'Descripción del primer item'),
-('Item 2', 'Descripción del segundo item'),
-('Item 3', 'Descripción del tercer item');
+('Frontend', 'Frente'),
+('Backend', 'Fondo'),
+('DB', 'Base de datos');
